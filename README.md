@@ -1,12 +1,54 @@
-# React + Vite
+Great start! Here’s a tightened, typo-fixed, and consistently formatted README you can copy as-is.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🎬 Movie App
+React + Vite movie explorer to search films, browse categories, and view details.
 
-Currently, two official plugins are available:
+Live site : https://movie-app-rho-olive-60.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- 🔍 Search movies by title with a dedicated results page
+- 🗂 Category browsing (e.g., trending, genres)
+- 📄 Movie detail pages (overview, release date, rating, runtime, etc.)
+- ♻️ Reusable components (Card, Header, Footer)
+- ⬆️ Scroll-to-top between route changes
+- ⚡ Fast Vite dev/build pipeline
+- 🎨 Tailwind CSS 4 utility-first styling
+- 🖼️ Icons via Font Awesome and React Icons
 
-## Expanding the ESLint configuration
+## 🧱 Project Structure
+```
+src/
+├─ assets/                         # Static assets (images/icons)
+├─ Components/
+│  ├─ Card/
+│  │  └─ Card.jsx
+│  ├─ Footer/
+│  │  └─ Footer.jsx
+│  ├─ Header/
+│  │  └─ Header.jsx
+│  └─ ScrollToTop/
+├─ Pages/
+│  ├─ Category/
+│  │  └─ Category.jsx
+│  ├─ Home/
+│  │  └─ Home.jsx
+│  ├─ MovieDetailPage/
+│  │  └─ MovieDetailPage.jsx
+│  └─ SearchResults/
+│     └─ SearchResults.jsx
+├─ App.jsx
+├─ index.css
+├─ main.jsx
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- React 19, React DOM 19
+- React Router DOM 7
+- Vite 7
+- Tailwind CSS 4 (+ @tailwindcss/vite)
+- Font Awesome (SVG Core + Free Solid), React Icons
+- ESLint 9
+
+## 🌐 Deployment
+Deployed on Vercel (or any static host).  
+Live site : https://movie-app-rho-olive-60.vercel.app/
