@@ -29,7 +29,7 @@ const Category = () => {
   }, [id]);
 
   return (
-    <div className="px-4 py-6 sm:px-6 lg:px-12 bg-[#CAD5E2]">
+    <div className="px-4 py-6 sm:px-6 lg:px-12 bg-[#CAD5E2] min-h-screen">
       <h1 className="text-2xl sm:text-3xl font-semibold mb-6 text-gray-900 tracking-wide drop-shadow-sm">
         {name || "Category"} Movies
       </h1>
